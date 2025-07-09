@@ -1,0 +1,58 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+background: linear-gradient(135deg, #1976d2 0%, #90caf9 100%);  background-attachment: fixed;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #f5f5f5;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiContainer-root {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 80vh;
+  padding-bottom: 32px;
+}
+
+.MuiCard-root, .MuiPaper-root {
+  background: rgba(30, 30, 30, 0.97);
+  color: #f5f5f5;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 18px;
+}
+
+.MuiTypography-h4, .MuiTypography-h5 {
+  color: #90caf9;
+}
+
+.MuiAvatar-root {
+  background: #1976d2;
+  color: #fff;
+}
+
+.MuiAppBar-root {
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #232526;
+}
+::-webkit-scrollbar-thumb {
+  background: #1976d2;
+  border-radius: 8px;
+}
